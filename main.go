@@ -75,17 +75,14 @@ func main() {
 				color.Red("Shubuh: %s", time)
 			case 2:
 				time = s.Empty().Text()
-				color.Yellow("Terbit: %s", time)
+				color.White("Dzuhur: %s", time)
 			case 3:
 				time = s.Empty().Text()
-				color.White("Dzuhur: %s", time)
+				color.Green("Ashr: %s", time)
 			case 4:
 				time = s.Empty().Text()
-				color.Green("Ashr: %s", time)
-			case 5:
-				time = s.Empty().Text()
 				color.Cyan("Maghrib: %s", time)
-			case 6:
+			case 5:
 				time = s.Empty().Text()
 				color.White("isya: %s", time)
 			}
